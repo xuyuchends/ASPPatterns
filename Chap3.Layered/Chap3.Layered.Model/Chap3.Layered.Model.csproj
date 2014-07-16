@@ -38,6 +38,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomerType.cs" />
+    <Compile Include="DiscountFactory.cs" />
     <Compile Include="IDiscountStrategy.cs" />
     <Compile Include="NullDiscountStrategy.cs" />
     <Compile Include="Price.cs" />
