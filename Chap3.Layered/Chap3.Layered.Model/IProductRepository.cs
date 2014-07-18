@@ -5,9 +5,8 @@ using System.Text;
 
 namespace Chap3.Layered.Model
 {
-    public enum CustomerType
+   public  interface IProductRepository
     {
-        Standred = 0,
-        Trade = 1
+       IList<Product> FindAll();
     }
 }
