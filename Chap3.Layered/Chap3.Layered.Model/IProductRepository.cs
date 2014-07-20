@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Chap3.Layered.Model
 {
-   public  interface IProductRepository
+    public interface IProductRepository
     {
        IList<Product> FindAll();
     }
